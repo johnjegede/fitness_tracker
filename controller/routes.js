@@ -1,6 +1,6 @@
 var express = require("express");
 var path = require("path");
-const Workout = require("../models/tracker.js");
+const Workout = require("../models/workout.js");
 //const mongojs = require("mongojs");
 
 var router = express.Router();
@@ -10,11 +10,11 @@ router.get("/exercise", function (req, res) {
 });
 
 router.get("/stats", (req, res) => {
-  res.sendFile(path.join(__dirname + "../public/stats.html"));
+  res.sendFile(path.join(__dirname, "../public/stats.html"));
 });
 
 router.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname + "../public/index.html"));
+  res.sendFile(path.join(__dirname, "../public/index.html"));
 });
 
 router.post("/api/workouts", ({ body }, res) => {
