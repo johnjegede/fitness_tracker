@@ -27,7 +27,7 @@ When the app is launch You will see a tab called New Workout click on this tap a
 ![Tracker page](public/images/fit1.JPG)
 To see the dashboard for the exercises you have done click on the dashboard tab at the upper left corner of the page.
 
-![Dashboard](public\images\fit2.JPG)
+![Dashboard](public/images/fit2.JPG)
 
 To go back to the fitness page to enter new or continue workerout click on the Fitness Tracker tap at the top left corner of the page
 
